@@ -120,6 +120,7 @@ private slots:
     void onPasswordCheckFailed();
     void onSignInFinished();
     void onCheckInFinished(Telegram::Client::AuthOperation *checkInOperation);
+    void onAccountInvalidated(const QString &accountIdentifier);
     void onConnectionReady();
     void updateContactList();
     void onDialogsReady();
